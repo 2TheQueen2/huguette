@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cadre{
+            height: 200px;
+            width: 250px;
+          border:1px solid black;
+           border-radius: 20px;
+          border-color: green;
+          border-width: 1px;
+          background-color: rgb(182, 238, 238);
+          box-shadow: 15px 15px 15px rgb(8, 8, 34);
+        margin: 3%;
+        transition: transformn 0.3s ease;
+        }
+        .cadre:hover{
+            transform: translateY(-30px);/*pour soulever vers le haut*/
+            transform: scale(1.2);/*pour agrandir*/
+        }
+        .in{
+            font-size: 20px;
+            text-align: center;
+        }
+        .un{
+            color: firebrick;
+        }
+        .entete{
+            color: chartreuse;
+            text-align: center;
+        }
+        .en{
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+        body{
+            background-image: url(Télécommunications-1.png);
+      background-attachment: fixed;
+        overflow: auto;
+        }
+        .uno{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="entete">LES DIFFERENTS SERVICE QU'OFFRE NOTRE ENTREPRISE TELIS </h2>
+    <P class="en">Notre entreprise TELIS offre une variété de services pour <br>répondre aux besoins de communication des particuliers et des entreprises. <br> Voici les principaux services proposés</P>
+    <section class="uno">
+    <div class="cadre"><p class="in"><u class="un">Services de téléphonie mobile </u>:
+
+        Appels vocaux <br>
+        SMS et MMS <br>
+        Internet mobile (3G, 4G, 5G) <br></p></div>
+        <div class="cadre"><p class="in"><u class="un">
+            Services de téléphonie fixe
+        </u>Lignes de téléphone fixe
+        Services VoIP (Voice over Internet Protocol)</p></div>
+        <div class="cadre"> <p class="in">
+            <u class="un">Services Internet</u> :
+
+            Accès à Internet haut débit (ADSL, fibre optique)
+            Wi-Fi public
+            Hébergement de sites web
+        </p></div>
+        </section>
+        <section class="uno">
+        <div class="cadre"> <p class="in">
+            <u class="un">Services de télévision </u> :
+            Télévision par câble
+            Télévision par satellite
+            Services de streaming et vidéo à la demande
+        </p></div>
+        <div class="cadre"> <p class="in">
+            <u class="un">Services de solutions d'entreprise</u> :
+            Services de communication unifiée
+Solutions de messagerie professionnelle
+Réseaux privés virtuels (VPN)
+        </p></div>
+        <div class="cadre"> <p class="in">
+            <u class="un">Services supplémentaires</u> :
+            Support technique et service client
+Services de sécurité (pare-feu, antivirus)
+Applications et services de cloud computing
+        </p></div>
+    </section>
+
+</body>
+</html>
